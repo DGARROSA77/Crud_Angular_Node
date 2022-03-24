@@ -1,0 +1,28 @@
+### ESTUDIANTES
+
+GET http://localhost:3000/api/students
+
+###Crear Estudiante
+POST http://localhost:3000/api/students/add
+Content-Type: application/json
+
+{
+    "Full_name":"klever",
+    "course":"2",
+    "email":"klever@gmail.com"
+}
+
+###
+DELETE http://localhost:3000/api/students/0
+
+
+###
+
+PUT http://localhost:3000/api/students/7
+Content-Type: application/json
+
+{
+    "Full_name": "Pedro",
+    "course": "3",
+    
+}
